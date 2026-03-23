@@ -4,8 +4,8 @@ const transporter = nodemailer.createTransport({
     port: 25,
     secure: false, // Use true for port 465, false for port 587
     auth: {
-        user: "",
-        pass: "",
+        user: "d61095567237de",
+        pass: "4078dcf2582bf3",
     },
 });
 module.exports = {
