@@ -5,7 +5,7 @@ const path = require('path');
 
 router.post('/users', async (req, res) => {
     try {
-        const filePath = path.join(__dirname, '../user.xlsx');
+        const filePath = path.join(__dirname, '../uploads/user.xlsx');
         const result = await importUsersFromExcel(filePath);
         res.status(200).json({
             message: 'Import process completed',
