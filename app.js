@@ -34,6 +34,7 @@ app.use('/api/v1/inventories', require('./routes/inventories'));
 app.use('/api/v1/carts', require('./routes/carts'));
 app.use('/api/v1/upload', require('./routes/upload'));
 app.use('/api/v1/import', require('./routes/import'));
+app.use('/api/v1/messages', require('./routes/messages'));
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
